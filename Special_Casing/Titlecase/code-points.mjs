@@ -1,0 +1,3 @@
+import { gunzipSync } from 'node:zlib';
+
+export default new Map(JSON.parse(gunzipSync(Buffer.from('H4sIAAAAAAAAE1WSyY0FMQhEE+JAeWGJpfXzT2NkXO72XJDqsWM/T2tdnugCzN9PHhttmjyuAm0HOMEbEQRxQJ6UK8r0gifSwG52QLsBBqY86L0LBpQxXmyEoOcp5PaywGH+MT8sFpv/c/OLy8V6qwVUsHsmmjw5u7ib+K6fY8iTNm82ck2hS1eeR9cFhgScAPIAtrII2gIp7kHQ5UHDBVYjF98PEApj471UKOIF4hYbNr1hErYPRh8FUeljfqAaTnxg2LU+G2D4DXcDTN3wTZ34ol5o7TrdqWf9hqxndWS8u8K4/FfLv7QXRjXIF+iqE+q8oLfN6JvFOpWVOj4vNamilFFlKT6Ca1le31GWZ4/yBX1Rvji+miWVqpcCVU2dnDpqzuScUXMm54yaMznn+oYBpS+91PFFKe6QWYrHVS3LB1GU5Utoq7+iVL0U+IPGtlRrTrSjbFuq3JYfTbelqn7jqLYt1dx2K49tqaomr4u6NYJV6p6I/vv9/gA4TwP43AQAAA==', 'base64'))));
